@@ -740,3 +740,10 @@ footer hr {
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .about-v1-story-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
