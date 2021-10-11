@@ -95,6 +95,10 @@ a {
   position: relative;
   padding-top: 120px;
   padding-bottom: 167px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 .container-small-585px.contact {
@@ -663,5 +667,12 @@ footer hr {
   .footer .content,
   .footer {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .w-layout-grid {
+    display: -ms-grid;
+    display: flex;
+    flex-direction: column;
   }
 }

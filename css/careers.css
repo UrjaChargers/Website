@@ -669,3 +669,19 @@ footer hr {
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    font-size: 8px !important;
+  }
+  .button-primary {
+    font-size: 12px !important;
+    padding: 10px 10px;
+  }
+}
